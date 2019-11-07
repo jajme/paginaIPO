@@ -23,3 +23,9 @@
 .custom-map iframe {
   width: 100%;
 }
+a:link {
+  color: rgb(18, 0, 133);
+}
+a:visited {
+  color: rgb(14, 0, 102);
+}
