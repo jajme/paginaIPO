@@ -13,3 +13,13 @@
 .page-element {
   margin: 5%;
 }
+.custom-map {
+  margin-right: 10px;
+  width: 100% !important;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.custom-map iframe {
+  width: 100%;
+}
