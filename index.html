@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet" />
+    <link href="app.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar -->
+      <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading">Start Bootstrap</div>
+        <div class="list-group list-group-flush">
+          <a
+            href="#Intro"
+            accesskey="i"
+            class="list-group-item list-group-item-action bg-light"
+            ><u>I</u>ntro</a
+          >
+          <a
+            href="#videos"
+            accesskey="v"
+            class="list-group-item list-group-item-action bg-light"
+            ><u>V</u>ideos</a
+          >
+          <a
+            href="#contact"
+            accesskey="c"
+            class="list-group-item list-group-item-action bg-light"
+            ><u>F</u>otos</a
+          >
+        </div>
+      </div>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light border-bottom"
+        >
+          <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#Intro"
+                  >Intro <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Link</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="page-element">
+          <h1 class="mt-4" id="Intro">Simple Sidebar</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            vestibulum, erat ac maximus ullamcorper, quam tellus sagittis
+            libero, et fermentum nibh leo vitae neque. Aliquam ut nulla magna.
+            Vestibulum vitae augue eu turpis pulvinar ornare at at ante. Nullam
+            sed ultricies elit, sed aliquam felis. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Nam nec urna et arcu condimentum
+            dapibus non et velit. Nulla vestibulum luctus augue, auctor
+            malesuada dui vehicula vitae. Etiam posuere volutpat leo id
+            condimentum. Quisque sed porta leo, sit amet pulvinar velit. Aliquam
+            nec leo nec libero volutpat finibus. Nullam interdum fringilla
+            condimentum. Nullam interdum vel justo sit amet dignissim
+          </p>
+          <div class="container-fluid">
+            <img
+              class="col-md-10 col-md-offset-1"
+              src="https://img.menzig.fit/a/0000/158-h0.jpg"
+              alt="imagen comida"
+            />
+          </div>
+
+          <div class="container-fluid alaign-center">
+            <img
+              class="col-5 col-md-offset-1"
+              src="https://static1.elnortedecastilla.es/www/multimedia/201708/10/media/cortadas/alergenos-kM2G-U40529029965dyC-624x624@El%20Norte.jpg"
+              alt="imagen Comida 2"
+            />
+            <img
+              class="col-5 col-md-offset-1"
+              src="http://www.merca20.com/wp-content/uploads/2015/09/investigacion-2.jpg"
+              alt="grafica"
+            />
+          </div>
+        </div>
+
+        <div class="page-element" id="Intro">
+          <h1 class="mt-4">Simple Sidebar</h1>
+          <p>
+            The starting state of the menu will appear collapsed on smaller
+            screens, and will appear non-collapsed on larger screens. When
+            toggled using the button below, the menu will change.
+          </p>
+          <p>
+            Make sure to keep all page content within the
+            <code>#page-content-wrapper</code>. The top navbar is optional, and
+            just for demonstration. Just create an element with the
+            <code>#menu-toggle</code> ID which will toggle the menu when
+            clicked.
+          </p>
+          <div class="row body-wrapper" id="videos">
+            <div class="col-md-12">
+              <div class="video-wrapper col-md-6 offset-md-3">
+                <iframe
+                  width="360"
+                  height="202"
+                  src="https://www.youtube.com/embed/tLS9IK693KI"
+                  allow="accelerometer;encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="video-wrapper col-md-6 offset-md-3">
+                <iframe
+                  src="https://player.vimeo.com/video/78058789?color=ff4e00&title=0&byline=0&portrait=0&badge=0"
+                  width="360"
+                  height="280"
+                  allow="fullscreen"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="video-wrapper col-md-6 offset-md-3">
+                <video
+                  src="SampleVideo_1280x720_10mb.mp4"
+                  height="202"
+                  width="360"
+                  controls
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-container PageElement">
+          <form class="container-fluid m1">
+            <div class="form-group" id="contact">
+              <label>Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                name="fullname"
+                placeholder="Perico Fernandez"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Comentarios</label>
+              <textarea class="form-control" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+              <label>Telefono</label>
+              <input
+                type="number"
+                name="phonenumber"
+                class="form-control"
+                placeholder="+34 628714563"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+        <!-- /#page-content-wrapper -->
+      </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+      $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+      });
+    </script>
+  </body>
+</html>
