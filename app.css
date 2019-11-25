@@ -23,9 +23,35 @@
 .custom-map iframe {
   width: 100%;
 }
+.main-content {
+  margin: 10px 20px 0 20px;
+}
+.float-right {
+  float: right;
+}
+.search-bar {
+  text-align: center;
+}
+.search-icon {
+  position: absolute;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.alert {
+  margin-top: 25px;
+  background-color: #24292e;
+}
+.test-icon {
+  color: white;
+}
 a:link {
   color: rgb(18, 0, 133);
 }
 a:visited {
   color: rgb(14, 0, 102);
+}
+
+.main-pannel {
+  background-color: #f8f9fa;
+  margin-top: 20px;
 }
