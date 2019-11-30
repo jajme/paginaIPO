@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom styles for this template -->
+    <script src="https://kit.fontawesome.com/8f146931a8.js" crossorigin="anonymous"></script>
+     <link href="css/config.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet" />
+    <link href="app.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar -->
+      <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading">Start Bootstrap</div>
+        <div class="list-group list-group-flush">
+          <a
+            href="./cofiguracion.html"
+            accesskey="i"
+            class="list-group-item list-group-item-action bg-light"
+            >Ajustes</a
+          >
+          <a
+            href="./explorar.html"
+            accesskey="v"
+            class="list-group-item list-group-item-action bg-light"
+            >Explorar</a
+          >
+          <a
+            href="./index.html"
+            accesskey="c"
+            class="list-group-item list-group-item-action bg-light"
+            >Logout</a
+          >
+        </div>
+      </div>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light border-bottom"
+        >
+          <button class="btn btn-primary active" id="menu-toggle">
+            Toggle Menu
+          </button>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="./main.html" accesskey="c">Alertas</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- /#page-content-wrapper -->
+        <div class="row main-content">
+            <div class="config">
+                <h1>Configuracion</h1>
+                <form action="/">
+                <hr>
+                <h4>Datos Personales</h3><hr>
+                    <label class="icon" for="email"><i class="far fa-envelope"></i></label>
+                    <input type="text" name="email" id="email" placeholder="Email" required="">
+
+                    <label class="icon" for="name"><i class="far fa-user"></i></label>
+                    <input type="text" name="name" id="name" placeholder="nombre" required="">
+
+                    <label class="icon" for="pais"><i class="fas fa-flag"></i></label>
+                    <input type="text" name="pais" id="pais" class="lastbolck" placeholder="pais" required="">
+                    
+                <h4>Cambiar contraseña</h3><hr>
+                    <label class="icon" for="password"><i class="fas fa-shield-alt"></i></label>
+                    <input type="password" name="contraseñaantigua" id="password1" placeholder="contraseña antigua" required="">
+
+                    <label class="icon" for="password">1</i></label>
+                    <input type="password" name="contraseñanueva" id="password2" placeholder="contraseña nueva" required="">
+
+                    <label class="icon" for="password">2</label>
+                    <input type="password" name="repetircontraseña" id="password3" class="lastbolck" placeholder="repetir contraseña" required="">
+                    
+                <h4>Datos medicos</h3><hr>
+                    <label class="icon" for="alegias"><i class="fas fa-prescription-bottle-alt"></i></label>
+                    <input type="text" name="alegias" id="alegias" placeholder="alegia 1,alegia 2" required="">
+                    <p class="lastbolck">intoduca sus alegias sepadas por comas</p>
+                
+
+                <h4>Notificaciones</h3><hr>
+                    <div class="notificationes">
+                        <input type="radio" value="si" id="notificationsi" name="notification" checked="">
+                        <label for="male" class="radio" chec="">si</label>
+
+                        <input type="radio" value="no" id="female" name="notification">
+                        <label for="female" class="radio">no</label>
+                    </div>
+                <a href="index.html" class="buttoncontrol btn btn-primary">cancelar</a>
+                <a href="index.html" class="buttoncontrol btn btn-primary">guardar</a>
+                </form>
+            </div>
+          
+        </div> 
+      </div>
+    </div>
+    <!-- /#wrapper -->
+    <footer class="page-footer font-small cyan darken-3">
+      <!-- Footer Elements -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2018 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/">
+          MDBootstrap.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+      $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+      });
+    </script>
+  </body>
+</html>
